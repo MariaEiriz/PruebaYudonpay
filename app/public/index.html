@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="/">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="/public/scripts/socket.io.js"></script>
+    <script src="/public/scripts/MainController.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <h1>Biblioteca de películas</h1>
+    <br>
+    <div class="row">
+
+        <div style="border-style: solid double;" class="col-sm-4 col-md-4 col-lg-4">
+            <h3>Elige un género y pulsa "Buscar"</h3>
+            <select id="filmList" name="filmsByGenre">
+                <option value="genre1">Genre1</option>
+                <option value="genre2">Genre2</option>
+                <option value="genre3">Genre3</option>
+                <option value="genre4">Genre4</option>
+                <option value="genre5">Genre5</option>
+                <option value="genre6">Genre6</option>
+            </select>
+            <br><br>
+            <input type="button" onclick="listarPorGenero()" value="Buscar">
+            <br><br>
+
+            <ul id="listado">
+
+            </ul>
+
+        </div>
+        <div style="border-style: solid double;" class="col-sm-4 col-md-4 col-lg-4">
+            <h3>Crear película</h3>
+            <p> <b>Nombre</b> <input id="nameFilm" type="text"><br></p>
+            <p> <b>Director </b><input id="directorFilm" type="text"><br></p>
+            <p> <b>Año </b><input id="yearFilm" type="text"><br></p>
+            <p><b>Géneros</b></p>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <input type="checkbox" name="genre" value="genre1"> Genre1<br>
+                    <input type="checkbox" name="genre" value="genre2">Genre 2<br>
+                    <input type="checkbox" name="genre" value="genre3"> Genre 3<br>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <input type="checkbox" name="genre" value="genre4"> Genre4<br>
+                    <input type="checkbox" name="genre" value="genre5">Genre 5<br>
+                    <input type="checkbox" name="genre" value="genre6"> Genre 6<br>
+                </div>
+            </div>
+            <input type="button" value="Crear Película" onclick="crearPelicula()">
+
+        </div>
+        <div style="border-style: solid double;" class="col-sm-4 col-md-4 col-lg-4">
+            <div class="row">
+                    <div style="border-style: solid double; width: 100%;">
+
+                <h3>Modificar película</h3>
+                <button onclick="cargarPeliculas()">Cargar Películas</button>
+                <select id="allFilms" name="allFilms"></select>
+                <p> <b>Nombre</b> <input id="nameFilmSet" type="text"><br></p>
+                <p> <b>Director </b><input id="directorFilmSet" type="text"><br></p>
+                <p> <b>Año </b><input id="yearFilmSet" type="text"><br></p>
+                <p><b>Géneros</b></p>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <input type="checkbox" name="genreSet" value="genre1"> Genre1<br>
+                        <input type="checkbox" name="genreSet" value="genre2">Genre 2<br>
+                        <input type="checkbox" name="genreSet" value="genre3"> Genre 3<br>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <input type="checkbox" name="genreSet" value="genre4"> Genre4<br>
+                        <input type="checkbox" name="genreSet" value="genre5">Genre 5<br>
+                        <input type="checkbox" name="genreSet" value="genre6"> Genre 6<br>
+                    </div>
+                </div>
+                <input type="button" value="Modificar Película" onclick="modificarPelicula()">
+                <br>
+                    </div>
+                <div style="border-style: solid double; width: 100%;">
+                    <h3>Borrar película</h3>
+                    <button onclick="cargarPeliculas()">Cargar Películas</button>
+
+                    <select id="allFilmsDelete" name="allFilmsDelete"></select>
+                    <button type="submit" onclick="borrarPelicula()">Borrar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

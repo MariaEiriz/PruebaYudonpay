@@ -1,0 +1,58 @@
+{
+    "films": [
+        {
+            "name": "Película 1",
+            "director": "",
+            "yearRelease": "",
+            "genre": ["genre1","genre2"]
+        },
+        {
+            "name": "Película 2",
+            "director": "",
+            "yearRelease": "",
+            "genre": ["genre5", "genre1", "genre3"]
+        },
+        {
+            "name": "Película 3",
+            "director": "",
+            "yearRelease": "",
+            "genre": ["genre4"]
+        },
+        {
+            "name": "Película 4",
+            "director": "",
+            "yearRelease": "",
+            "genre": ["genre5", "genre1", "genre3"]
+        },
+        {
+            "name": "Película 5",
+            "director": "",
+            "yearRelease": "",
+            "genre": ["genre5", "genre1", "genre3"]
+        },
+        {
+            "name": "Película 6",
+            "director": "",
+            "yearRelease": "",
+            "genre": ["genre5", "genre1", "genre3"]
+        },
+        {
+            "name": "Película 7",
+            "director": "",
+            "yearRelease": "",
+            "genre": ["genre5", "genre1", "genre3"]
+        },
+        {
+            "name": "Película 8",
+            "director": "",
+            "yearRelease": "",
+            "genre": ["genre5", "genre1", "genre3"]
+        },
+        {
+            "name": "Película 9",
+            "director": "",
+            "yearRelease": "",
+            "genre": ["genre5", "genre1", "genre3"]
+        }
+    ]
+}
