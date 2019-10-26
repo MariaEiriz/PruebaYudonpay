@@ -17,26 +17,27 @@ http://localhost:9090
 _Desde el postman o cualquier otro programa similar se podrán hacer las llamadas para probar la API Rest siguiente_
 
 #### Listado de todas las películas
+
 ```
-GET:  http://localhost:9090/getFilms
+POST:  http://localhost:9090/getFilms
 ```
 
 #### Listado de películas por género
 ```
-GET:  http://localhost:9090/listByGenre
+POST:  http://localhost:9090/listByGenre
 ```
 
 #### Crear una película
 ```
-GET:  http://localhost:9090/createFilm
+POST:  http://localhost:9090/createFilm
 ```
 
 #### Borrar una película
 ```
-GET:  http://localhost:9090/deleteFilm
+POST:  http://localhost:9090/deleteFilm
 ```
 
 #### Modificar una película
 ```
-GET:  http://localhost:9090/setFilm
+POST:  http://localhost:9090/setFilm
 ```
