@@ -25,12 +25,12 @@
         <div style="border-style: solid double;" class="col-sm-4 col-md-4 col-lg-4">
             <h3>Elige un género y pulsa "Buscar"</h3>
             <select id="filmList" name="filmsByGenre">
-                <option value="genre1">Genre1</option>
-                <option value="genre2">Genre2</option>
-                <option value="genre3">Genre3</option>
-                <option value="genre4">Genre4</option>
-                <option value="genre5">Genre5</option>
-                <option value="genre6">Genre6</option>
+                <option value="Drama">Drama</option>
+                <option value="Terror">Terror</option>
+                <option value="Sci-fi">Sci-fi</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Thriller">Thriller</option>
+                <option value="Adventure">Adventure</option>
             </select>
             <br><br>
             <input type="button" onclick="listarPorGenero()" value="Buscar">
@@ -49,14 +49,14 @@
             <p><b>Géneros</b></p>
             <div class="row">
                 <div class="col-sm-6 col-md-6 col-lg-6">
-                    <input type="checkbox" name="genre" value="genre1"> Genre1<br>
-                    <input type="checkbox" name="genre" value="genre2">Genre 2<br>
-                    <input type="checkbox" name="genre" value="genre3"> Genre 3<br>
+                    <input type="checkbox" name="genre" value="Drama"> Drama<br>
+                    <input type="checkbox" name="genre" value="Terror">Terror<br>
+                    <input type="checkbox" name="genre" value="Sci-fi">Sci-fi<br>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
-                    <input type="checkbox" name="genre" value="genre4"> Genre4<br>
-                    <input type="checkbox" name="genre" value="genre5">Genre 5<br>
-                    <input type="checkbox" name="genre" value="genre6"> Genre 6<br>
+                    <input type="checkbox" name="genre" value="Comedy"> Comedy<br>
+                    <input type="checkbox" name="genre" value="Thriller">Thriller<br>
+                    <input type="checkbox" name="genre" value="Adventure">Adventure<br>
                 </div>
             </div>
             <input type="button" value="Crear Película" onclick="crearPelicula()">
@@ -75,14 +75,14 @@
                 <p><b>Géneros</b></p>
                 <div class="row">
                     <div class="col-sm-6 col-md-6 col-lg-6">
-                        <input type="checkbox" name="genreSet" value="genre1"> Genre1<br>
-                        <input type="checkbox" name="genreSet" value="genre2">Genre 2<br>
-                        <input type="checkbox" name="genreSet" value="genre3"> Genre 3<br>
+                        <input type="checkbox" name="genre" value="Drama"> Drama<br>
+                    <input type="checkbox" name="genre" value="Terror">Terror<br>
+                    <input type="checkbox" name="genre" value="Sci-fi">Sci-fi<br>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-6">
-                        <input type="checkbox" name="genreSet" value="genre4"> Genre4<br>
-                        <input type="checkbox" name="genreSet" value="genre5">Genre 5<br>
-                        <input type="checkbox" name="genreSet" value="genre6"> Genre 6<br>
+                        <input type="checkbox" name="genre" value="Comedy"> Comedy<br>
+                        <input type="checkbox" name="genre" value="Thriller">Thriller<br>
+                        <input type="checkbox" name="genre" value="Adventure">Adventure<br>
                     </div>
                 </div>
                 <input type="button" value="Modificar Película" onclick="modificarPelicula()">

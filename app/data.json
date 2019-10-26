@@ -4,55 +4,55 @@
             "name": "Película 1",
             "director": "",
             "yearRelease": "",
-            "genre": ["genre1","genre2"]
+            "genre": ["Sci-fi","Adventure", "Drama"]
         },
         {
             "name": "Película 2",
             "director": "",
             "yearRelease": "",
-            "genre": ["genre5", "genre1", "genre3"]
+            "genre": ["Drama", "Sci-fi", "Terror"]
         },
         {
             "name": "Película 3",
             "director": "",
             "yearRelease": "",
-            "genre": ["genre4"]
+            "genre": ["Thriller", "Drama"]
         },
         {
             "name": "Película 4",
             "director": "",
             "yearRelease": "",
-            "genre": ["genre5", "genre1", "genre3"]
+            "genre": ["Drama", "Sci-fi"]
         },
         {
             "name": "Película 5",
             "director": "",
             "yearRelease": "",
-            "genre": ["genre5", "genre1", "genre3"]
+            "genre": ["Drama",  "Comedy"]
         },
         {
             "name": "Película 6",
             "director": "",
             "yearRelease": "",
-            "genre": ["genre5", "genre1", "genre3"]
+            "genre": ["Comedy", "Sci-fi", "Terror"]
         },
         {
             "name": "Película 7",
             "director": "",
             "yearRelease": "",
-            "genre": ["genre5", "genre1", "genre3"]
+            "genre": ["Drama", "Sci-fi", "Thriller"]
         },
         {
             "name": "Película 8",
             "director": "",
             "yearRelease": "",
-            "genre": ["genre5", "genre1", "genre3"]
+            "genre": ["Drama", "Sci-fi", "Terror"]
         },
         {
             "name": "Película 9",
             "director": "",
             "yearRelease": "",
-            "genre": ["genre5", "genre1", "genre3"]
+            "genre": [ "Drama", "Terror"]
         }
     ]
 }

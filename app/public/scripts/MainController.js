@@ -68,7 +68,6 @@ function modificarPelicula() {
     for (i = 0; i < dataFilms.length; i++) {
 
         if (dataFilms[i].name == document.getElementById("allFilms").value) {
-            console.log ("hiohio");
             var genresChecked = [];
             var checkbox = document.querySelectorAll("[name=genreSet]");
 
