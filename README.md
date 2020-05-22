@@ -9,14 +9,14 @@ _Se abrirá el cmd y se ejecutará el siguiente código para instalar todas las 
 npm install
 ```
 ### Tarea 1
-_Si se quiere ejecutar la primera tarea, habrá que ejecutar: _
+_Si se quiere ejecutar la primera tarea, habrá que ejecutar:_
 ```
 node server.js [url]
 ```
 _Si no se pone esta estructura, o se añade un argumento mas (segunda tarea), lanzará un mensaje de error o ejecutará la segunda tarea respectivamente_
 
 ### Tarea 2
-_Si se quiere ejecutar la segunda tarea, habrá que ejecutar: _
+_Si se quiere ejecutar la segunda tarea, habrá que ejecutar:_
 
 ```
 node server.js [url] [N]
